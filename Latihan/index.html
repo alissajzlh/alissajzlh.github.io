@@ -13,20 +13,27 @@
 
     <body>
         <!-- Navbar -->
-        <ul class="nav justify-content-end sticky-top" style="background-color: #e3f2fd;">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portofolio">My Portofolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg shadow-sm sticky-top" style="background-color: #DDA0DD;">
+          <div class="container-fluid">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-dark" aria-current="page" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-dark" aria-current="page" href="#portofolio">My Portofolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-dark" aria-current="page" href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
           <!-- Hero -->
-          <div id="hero" class="container d-flex flex-column align-items-center justify-content-center mb-5">
+          <div style="background-image: url('./assets/images/bg.jpeg');" id="hero" class="container-fluid d-flex flex-column align-items-center justify-content-center">
             <img src="./assets/images/myphoto.jpg" class="image-hero rounded-circle" alt="">
             <h1 class="title fw-bold">Alisa Nuril Jazilah</h1>
             <p class="subtitle">Website Developer</p>
@@ -34,14 +41,14 @@
           </div>
 
         <!-- About Me -->
-        <div id="about" class="container mb-5">
-            <h2 class="text-center mb-3">About Me</h2>
+        <div id="about" class="container-fluid" style="background-color: #BC8F8F;">
+            <h2 class="text-center mb-5">About Me</h2>
             <div class="row">
                 <div class="col-6">
-                    <img src="./assets/images/saya.jpeg" class="shadow rounded w-100" alt="">
-                </div>
+                  <img src="./assets/images/mee.jpeg" class="image-me rounded float-end" alt="">
+              </div>
                 <div class="col-6">
-                    <p class="text-about text-secondary lh-lg">Saya Alisa Nuril Jazilah, mahasiswa semester 4 
+                    <p class="text-about text-dark lh-lg">Saya Alisa Nuril Jazilah, mahasiswa semester 4 
                     program studi Teknologi Rekayasa Perangkat Lunak Politeknik Negeri Banyuwangi 
                     angkatan tahun 2020. Merupakan mahasiswa yang bermotivasi tinggi dalam mencapai 
                     tujuan dan bersungguh-sungguh dalam mengerjakan suatu hal.</p>
