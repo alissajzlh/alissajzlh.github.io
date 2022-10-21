@@ -89,7 +89,16 @@ div {
 }
 
 .image-me{
-    width: 350px;
-    height: 450px;
+    width: 250px;
+    height: 350px;
     object-fit: cover;
+}
+
+#resume{
+  height: 95vh;
+}
+
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
 }

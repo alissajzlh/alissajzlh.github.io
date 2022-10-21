@@ -22,7 +22,7 @@
                   <a class="nav-link fw-bold text-dark" aria-current="page" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark" aria-current="page" href="#portofolio">My Portofolio</a>
+                  <a class="nav-link fw-bold text-dark" aria-current="page" href="#resume">My Resume</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link fw-bold text-dark" aria-current="page" href="#contact">Contact Me</a>
@@ -33,7 +33,7 @@
         </nav>
 
           <!-- Hero -->
-          <div style="background-image: url('./assets/images/bg.jpeg');" id="hero" class="container-fluid d-flex flex-column align-items-center justify-content-center">
+          <div style="background-image: url('./assets/images/bg.jpeg');" id="hero" class="container-fluid d-flex flex-column align-items-center justify-content-center mb-5">
             <img src="./assets/images/myphoto.jpg" class="image-hero rounded-circle" alt="">
             <h1 class="title fw-bold">Alisa Nuril Jazilah</h1>
             <p class="subtitle">Website Developer</p>
@@ -41,25 +41,30 @@
           </div>
 
         <!-- About Me -->
-        <div id="about" class="container-fluid" style="background-color: #BC8F8F;">
-            <h2 class="text-center mb-5">About Me</h2>
-            <div class="row">
-                <div class="col-6">
-                  <img src="./assets/images/mee.jpeg" class="image-me rounded float-end" alt="">
-              </div>
-                <div class="col-6">
-                    <p class="text-about text-dark lh-lg">Saya Alisa Nuril Jazilah, mahasiswa semester 4 
-                    program studi Teknologi Rekayasa Perangkat Lunak Politeknik Negeri Banyuwangi 
-                    angkatan tahun 2020. Merupakan mahasiswa yang bermotivasi tinggi dalam mencapai 
-                    tujuan dan bersungguh-sungguh dalam mengerjakan suatu hal.</p>
+        <div id="about" class="container mb-5">
+            <h2 class="text-center mb-3">About Me</h2>
+            <div class="card mx-auto" style="max-width: 540px; background-color: #D8BFD8;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assets/images/mee.jpeg" class="img-fluid rounded-start" alt="...">
                 </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Hello...</h5>
+                    <p class="text-about card-text">Saya Alisa Nuril Jazilah, mahasiswa semester 4 
+                      program studi Teknologi Rekayasa Perangkat Lunak Politeknik Negeri Banyuwangi 
+                      angkatan tahun 2020. Merupakan mahasiswa yang bermotivasi tinggi dalam mencapai 
+                      tujuan dan bersungguh-sungguh dalam mengerjakan suatu hal.</p>
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
 
-      <!-- Portofolio -->
-      <div id="portofolio" class="container mb-5">
-        <h2 class="text-center mb-3">My Portofolio</h2>
-        <div class="row">
+      <!-- Resume -->
+      <div style="background-image: url('./assets/images/bg-gelombang.jpeg');" id="resume" class="container-fluid mb-5">
+        <h2 class="text-center my-5">My Resume</h2>
+        <div class="row my-auto">
           <div class="col-6">
             <div class="card">
                 <div class="card-header">
@@ -128,21 +133,44 @@
       <!-- Contact Me -->
       <div id="contact" class="container mb-5">
         <h2 class="text-center mb-3">Contact Me</h2>
-        <form class="col-6 mx-auto">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/instagramm.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Instagram</h5>
+                <a href="https://www.instagram.com/alisanuril_jzlh/?hl=id" class="card-link">Link Here</a>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/youtubee.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Youtube</h5>
+                <a href="https://www.youtube.com/channel/UCsSkJ2k1xSJN2xVydIHsC4g" class="card-link">Link Here</a>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/telegramm.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Telegram</h5>
+                <a href="https://web.telegram.org/?legacy=1#/im?p=g785691157" class="card-link">Link Here</a>
+              </div>
+            </div>
           </div>
-          <button type="button" class="btn btn-primary w-100">Submit</button>
-        </form>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/images/tikktokk.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tiktok</h5>
+                <a href="https://www.tiktok.com/@nggaktaupokoknyagitu" class="card-link">Link Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Footer -->
