@@ -1,73 +1,3 @@
-/* body {
-    background-color: peachpuff;
-    font-family: sans-serif;
-    font-size: 100%;
-    padding: 50px;
-    color: dimgray;
-}  */
-
-/* Judul */
-/* h1 {
-    color: palevioletred;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-    color: palevioletred;
-} */
-
-/* Pengaturan Table */
-/* table, tr, td, th {
-    border: 1px solid white;
-    padding: 8px 10px;
-    background-color: lightpink;
-    font-family: sans-serif;
-    color: dimgray;
-    border-collapse: collapse;
-} */
-
-/* Pengaturan form */
-/* input[type=submit] {
-    background-color: palevioletred;
-    border: none;
-    color: white;
-    padding: 8px 13px;
-    text-decoration: none;
-  }
-div {
-    padding: 22px;
-  } */
-
-/* navbar */
-/* .navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darksalmon;
-  }
-  
-.navbar li {
-    float: left;
-  }
-
-.active {
-    background-color: sienna;
-  }
-  
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 26px;
-    text-decoration: none;
-  }
-  
-.navbar li a:hover {
-    background-color: tomato;
-  } */
-
 .image-hero{
     width: 250px;
     height: 250px;
@@ -102,3 +32,18 @@ div {
   height: 200px;
   object-fit: cover;
 }
+
+.skill-bar{
+  text-align: left;
+  padding: 20px;
+  font-size: 22px;
+ }
+ .skill{
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 20px;
+ }
+ .html{width: 60%;background-color: #BC8F8F}
+ .css{width: 60%;background-color: #D8BFD8}
+ .bootstrap{width: 50%;background-color: #EE82EE}
